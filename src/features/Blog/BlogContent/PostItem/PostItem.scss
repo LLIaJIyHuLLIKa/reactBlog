@@ -1,0 +1,51 @@
+.post {
+    margin-bottom: 30px;
+    padding: 5px 5px 15px 5px;
+    background-color: #fff;
+
+    &__title {
+        text-align: center;
+    }
+
+    &__image {
+        margin-bottom: 5px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__info {
+        display: flex;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 14px;
+
+        .author {
+            margin-right: 10px;
+        }
+
+        .tags {
+           margin-left: auto; 
+        }
+    }
+
+    &__text {
+        padding: 20px 5px;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    &__delete {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 15px;
+        font-size: 12px;
+        color: #ccc;
+
+        span:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}

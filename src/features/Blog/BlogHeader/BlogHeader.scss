@@ -1,0 +1,24 @@
+.header {    
+    &__content {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+
+        & .header__title {
+            margin: auto;
+            text-align: center;
+            color: gold;
+        }
+
+        & .header__search {
+            button {
+                border: 0;
+                background-color: #ff1493;
+                border-radius: 7px;
+                padding: 5px 8px;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+}

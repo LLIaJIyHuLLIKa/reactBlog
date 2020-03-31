@@ -1,0 +1,17 @@
+.blog-content {
+    margin-bottom: 30px;
+
+    &__description {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100px;
+        font-size: 14px;
+        color: #ccc;
+        background-color: #fff;
+
+        span {
+            opacity: 0.8;
+        }
+    }
+}
